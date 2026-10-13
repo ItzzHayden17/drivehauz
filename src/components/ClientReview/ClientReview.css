@@ -1,0 +1,187 @@
+.ClientReview .client_section {
+  padding: 70px 0;
+  background: #f7f7f9;
+}
+
+.ClientReview .client_eyebrow {
+  text-align: center;
+  color: #fe5b29;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.ClientReview .client_taital {
+  text-align: center;
+  color: #2c2c2c;
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.ClientReview .client_subtitle {
+  text-align: center;
+  color: #777;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.ClientReview .client_section_2 {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.ClientReview .client_review_card {
+  position: relative;
+  background: #fff;
+  border: 1px solid #ececf0;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.05);
+}
+
+.ClientReview .client_review_top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.ClientReview .client_img {
+  flex-shrink: 0;
+}
+
+.ClientReview .client_initials {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #363636;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.ClientReview .client_review_identity {
+  flex: 1;
+}
+
+.ClientReview .moark_text {
+  color: #2c2c2c;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+
+.ClientReview .client_vehicle {
+  color: #888;
+  font-size: 12px;
+  margin: 0;
+}
+
+.ClientReview .client_rating {
+  color: #fe5b29;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.ClientReview .quick_icon {
+  color: #fe5b29;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1;
+  margin-top: 24px;
+}
+
+.ClientReview .client_text {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.9;
+  margin: 0 0 28px;
+}
+
+.ClientReview .client_review_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.ClientReview .client_review_count {
+  color: #888;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.ClientReview .client_review_controls {
+  display: flex;
+  gap: 10px;
+}
+
+.ClientReview .client_control {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+  background: #fff;
+  color: #363636;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.ClientReview .client_control:hover {
+  background: #fe5b29;
+  border-color: #fe5b29;
+  color: #fff;
+}
+
+.ClientReview .client_review_dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 22px;
+}
+
+.ClientReview .client_dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: width 0.2s, background 0.2s;
+}
+
+.ClientReview .client_dot.active {
+  width: 24px;
+  background: #fe5b29;
+}
+
+@media (max-width: 575px) {
+  .ClientReview .client_section {
+    padding: 45px 0;
+  }
+
+  .ClientReview .client_taital {
+    font-size: 27px;
+  }
+
+  .ClientReview .client_review_card {
+    padding: 22px;
+  }
+
+  .ClientReview .client_rating {
+    width: 100%;
+  }
+
+  .ClientReview .client_text {
+    font-size: 14px;
+  }
+}
